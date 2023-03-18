@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .wrapper {
+            width: 100%;
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* background-image: url("title.svg") */
+        }
+
+        .cls-1 {
+            fill: #FAF8FF;
+            stroke: none;
+            stroke-width: 2px;
+            font-size: 387px;
+            font-family: Gabriola;
+            stroke-dasharray: 1360;
+            animation-iteration-count: 1;
+            animation: csvg 3s cubic-bezier(0, 0.23, 1, .1);
+        }
+
+        @keyframes csvg {
+            0% {
+                stroke: #fff;
+                stroke-width: 2px;
+                opacity: 0;
+                fill: none;
+                stroke-dasharray: 0;
+            }
+
+            30% {
+                stroke: #fff;
+                stroke-width: 2px;
+                opacity: 10;
+                fill: none;
+                /* stroke-dasharray: 1360; */
+            }
+
+            80% {
+                stroke: #fff;
+                stroke-width: 2px;
+                fill: rgba(255, 255, 255, 0);
+            }
+
+            100% {
+                opacity: 10;
+                fill: #FFE7FF;
+                stroke-dasharray: 1360;
+                outline: none;
+                stroke: none;
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: poppins;
+
+        }
+
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+            font-weight: 800;
+            padding-bottom: 100px;
+            text-transform: uppercase;
+            text-shadow: 0px 4px 20px white;
+            color: red;
+        }
+
+        .circle {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            background: red;
+            transform: rotate(-45deg);
+
+        }
+
+        .circle::before {
+            content: "";
+            width: 150px;
+            height: 150px;
+            background: red;
+            position: absolute;
+            top: -83px;
+            left: 0;
+            border-radius: 50%;
+        }
+
+     .circle::after {
+            content: "";
+            width: 150px;
+            height: 150px;
+            background: red;
+            position: absolute;
+            top: px;
+            right: -80px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 1900 399">
+
+            <text id="id" data-name="Nihil Babu" class="cls-1" transform="translate(6 271)">
+                <tspan x="0" y="0">Gajjala saikiran</tspan>
+            </text>
+        </svg>
+    </div>
+    <br>
+
+    <div class="center-content" style="opacity: 40%;">
+        <div class="circle"></div>
+        <h1>chinnu</h1>
+    </div>
+
+    <div style="margin-left: 50%; margin-top: -360px;" >
+        <marquee direction="down" scrollamount="15" style="height: 100px;" >
+            <i class="fa-sharp fa-solid fa-droplet" style="color: red; opacity: 40% ;"></i>
+            <br><br><br>
+            <i class="fa-sharp fa-solid fa-droplet" style="color: red; opacity: 40% ;"></i> 
+            <br><br>
+            <i class="fa-sharp fa-solid fa-droplet" style="color: red; opacity: 40% ;"></i>      
+        </marquee>
+    </div>
+
+    <div style="margin-left: 47%; margin-top: -140px;" >
+        <marquee direction="down" scrollamount="15" style="height: 100px;" >
+            <i class="fa-sharp fa-solid fa-droplet" style="color: red; opacity: 40% ;"></i>      
+        </marquee>
+    </div>
+
+    
+    <div style="margin-top: -5%; width: 370px; margin-left: 28%;">
+        <div style="transform: rotate(150deg); ">
+            <marquee style="width: -90px; border-radius: 50%;" behavior=""scrollamount="50" direction="" >
+          <i class="fa-solid fa-arrow-left-long" style="color: rgb(255, 255, 255); font-size: 50px; opacity: 50%;margin-left: 500px;"></i>
+        </marquee>
+        </div>    
+    </div>
+
+    <div style="font-size: 90px; margin-top: 67px; margin-left: 25%;">
+        <i class="fa-solid fa-person-falling" style="color: #fff;"></i>
+    </div>
+
+    
+
+</body>
+
+</html>
